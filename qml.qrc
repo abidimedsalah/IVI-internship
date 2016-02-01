@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>home/MainItem.qml</file>
+        <file>multimedia/Media.qml</file>
+        <file>home/SingleItem.qml</file>
+        <file>home/TrackItem.qml</file>
+        <file>navigation/map.qml</file>
+        <file>home/Focus_IVI.qml</file>
+        <file>home/NewItem.qml</file>
+        <file>home/Utils.js</file>
+        <file>navigation/InputBox.qml</file>
+        <file>home/Button.qml</file>
+        <file>internet/facebook.qml</file>
+        <file>internet/gmail.qml</file>
+        <file>internet/google.qml</file>
+        <file>internet/linkedin.qml</file>
+        <file>internet/acceuill.qml</file>
+        <file>internet/rechercher.qml</file>
+        <file>internet/youtube.qml</file>
+        <file>multimedia/MainMusic.qml</file>
+        <file>multimedia/MainMusic2.qml</file>
+        <file>multimedia/MusicModel.qml</file>
+        <file>multimedia/ScrollIndicator.qml</file>
+        <file>internet/twitter.qml</file>
+        <file>Bluetooth/Media-Bluetooth.qml</file>
+        <file>Bluetooth/Button.qml</file>
+        <file>Bluetooth/DialButton.qml</file>
+        <file>Bluetooth/Dialpad.qml</file>
+    </qresource>
+</RCC>
