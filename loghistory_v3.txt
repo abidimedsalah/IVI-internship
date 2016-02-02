@@ -1,0 +1,240 @@
+    1  ls
+    2  ls -l
+    3  ls
+    4  ls
+    5  ls
+    6  ls  -l
+    7  ls
+    8  ls 
+    9  ls -l
+   10  ll
+   11  git config --global user.name "abidi"
+   12  git config --global user.email  "abidi.medsalah@gmail.com"
+   13  git init QML_IVI_V1/
+   14  ls
+   15  cd QML_IVI_V1/
+   16  ls
+   17  ls |grep git
+   18  ls -l | grep *gi
+   19  ls
+   20  ls
+   21  cd  QML_IVI_V1/
+   22  ls
+   23  git status
+   24  ls
+   25  cd QML_IVI_V1/
+   26  git status
+   27  ls
+   28  cd internet/
+   29  git status
+   30  ls
+   31  ls
+   32  cd ..*
+   33  ls
+   34  cd git_projects/
+   35  ls
+   36  cd git_test_project/
+   37  git status
+   38  git init
+   39  ls
+   40  git config --global user.name "abidimedsalah"
+   41  git config --global user.email "abidi.medsalah@gmail.com"
+   42  log
+   43  git log
+   44  git status 
+   45  git clone https://github.com/abidimedsalah/test-git.git
+   46  cd test-git/
+   47  ls
+   48  cat readme.txt 
+   49  git status 
+   50  vi readme.txt 
+   51  git status 
+   52  git add readme.txt
+   53  git commit -m "change3-1"
+   54  git status 
+   55  ls
+   56  git log
+   57  history
+   58  git remote add origin https://github.com/abidimedsalah/test-git.git
+   59  git push - u origin master
+   60  git push -u origin master
+   61  history
+   62  history > loghistory.txt
+   63  git add loghistory.txt loghistory.txt 
+   64  git add loghistory.txt
+   65  git commit -m "add loghistory file"
+   66  git push -u origin master
+   67  git push -u origin master
+   68  git push -u origin master
+   69  cd ..
+   70  ls
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd QML_IVI_V1/
+   75  git remote add origin https://github.com/abidimedsalah/
+   76  git push -u origin master
+   77  git remote add origin https://github.com/abidimedsalah/testQML.git
+   78  git push -u origin master
+   79  git clone "https://github.com/abidimedsalah/IVI_internship.git"
+   80  ls
+   81  cd IVI_internship/
+   82  ls
+   83  git status 
+   84  git add
+   85  git add -help
+   86  git 
+   87  git status 
+   88  git commit -m "create projetc for internship"
+   89  git log
+   90  git push -u origin master
+   91  git diff*
+   92  git diff
+   93  git diff --cached
+   94  git status 
+   95  git log 
+   96  git log --oneline
+   97  git status 
+   98  git status 
+   99  git add .
+  100  git commit -m "delete unseful files"
+  101  git log
+  102  git status 
+  103  git remote add github https://github.com/abidimedsalah/IVI-internship.git
+  104  git log
+  105  git push github master
+  106  git branch 
+  107  git branch r2_index
+  108  git branch
+  109  git checkout r2_index 
+  110  git status 
+  111  git add .
+  112  git commit -m "add new file for new branch devlopment team "
+  113  git log
+  114  git remote add github https://github.com/abidimedsalah/IVI-internship.git
+  115  git push github r2_index 
+  116  git branch 
+  117  git branch r2_BT
+  118  git branch 
+  119  git checkout r2_BT 
+  120  git status 
+  121  git add BT/
+  122  git add .
+  123  git sta
+  124  git status 
+  125  git commit -m "add bt feature"
+  126  git log
+  127  git push github r2_BT
+  128  git branch 
+  129  git checkout master 
+  130  git checkout r2_BT 
+  131  git branch 
+  132  git checkout master
+  133  git status 
+  134  git add .
+  135  git commit -m "bug fix*"
+  136  git log
+  137  git push github master
+  138  git push github master
+  139  git status 
+  140  git add .
+  141  git commit -m "fix bug HMI"
+  142  git status 
+  143  git push github master
+  144  git checkout r2_BT 
+  145  git merge master
+  146  git add .
+  147  git commit -m "resolving conflict"
+  148  git log
+  149  git log oneline
+  150  git log --oneline
+  151  git push github r2_BT 
+  152  git checkout master 
+  153  git pull github master
+  154  git merge r2_BT 
+  155  git add .
+  156  git commit -m "resolving conflict in master"
+  157  git log
+  158  git log --oneline
+  159  git push github master
+  160  git pull github master
+  161  history 
+  162  history > loghistory2.txt
+  163  cat loghistory2.txt 
+  164  cd QML_IVI_V1/
+  165  ls
+  166  cd IVI_internship/
+  167  ls
+  168  git add .
+  169  git status
+  170  git commit -m "add log cmd history version2"
+  171  git log
+  172  git push master github
+  173  git push github master
+  174  git push github r2_BT 
+  175  git status 
+  176  git status 
+  177  git add .
+  178  git commit -m "add copy history"
+  179  git log
+  180  git status 
+  181  git push github r2_BT 
+  182  git checkout master
+  183  git status 
+  184  git add .
+  185  git sta
+  186  git status 
+  187  git commit -m "add test commit 02/02/16"
+  188  git log sta
+  189  git log stat*
+  190  git log 
+  191  git push github master
+  192  git checkout r2_BT 
+  193  git status 
+  194  git add .
+  195  git status 
+  196  git commit -m "add new log 02/02/16"
+  197  git push github r2_BT 
+  198  git log -p
+  199  git log -p --color
+  200  git log -p --color --oneline
+  201  git fetch github 
+  202  git checkout master 
+  203  git fetch github 
+  204  git pull github master
+  205  git log -p
+  206  git log --stat 
+  207  git log --stat --summary 
+  208  git log --stat --summary 
+  209  git log --stat --summary --oneline
+  210  git status 
+  211  git tag -a "v1.0" -m "release version"
+  212  git commit -a -m "bug fix for production"
+  213  git tag
+  214  git tag -a "v1.1" -m "release version 1.1 for production"
+  215  git tag
+  216  git show v1.0
+  217  git show v1.1
+  218  git log
+  219  git log
+  220  git push github master 
+  221  git push github v1.0
+  222* 
+  223  git push github v1.1
+  224  git show v1.1
+  225  git push github --tag
+  226  git log
+  227  git log --oneline
+  228  git checkout 7daa701
+  229  ls
+  230  git checkout master
+  231   git status 
+  232   git push github master
+  233  git commit -a -m "free1"
+  234  git commit -a -m "free2"
+  235  git log --oneline
+  236  git reset --hard e1193a2
+  237  git log --oneline
+  238  git commit -a -m "free2"
+  239  history
+  240  history > loghistory_v3.txt
